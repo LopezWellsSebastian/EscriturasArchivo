@@ -1,0 +1,7 @@
+C:\Users\Sebas\OneDrive\Documentos\GitHub\EscriturasArchivo\EscrituraArchivo\bin\Debug\EscrituraArchivo.exe.config
+C:\Users\Sebas\OneDrive\Documentos\GitHub\EscriturasArchivo\EscrituraArchivo\bin\Debug\EscrituraArchivo.exe
+C:\Users\Sebas\OneDrive\Documentos\GitHub\EscriturasArchivo\EscrituraArchivo\bin\Debug\EscrituraArchivo.pdb
+C:\Users\Sebas\OneDrive\Documentos\GitHub\EscriturasArchivo\EscrituraArchivo\obj\Debug\EscrituraArchivo.csproj.AssemblyReference.cache
+C:\Users\Sebas\OneDrive\Documentos\GitHub\EscriturasArchivo\EscrituraArchivo\obj\Debug\EscrituraArchivo.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\OneDrive\Documentos\GitHub\EscriturasArchivo\EscrituraArchivo\obj\Debug\EscrituraArchivo.exe
+C:\Users\Sebas\OneDrive\Documentos\GitHub\EscriturasArchivo\EscrituraArchivo\obj\Debug\EscrituraArchivo.pdb
