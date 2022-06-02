@@ -1,0 +1,19 @@
+
+Registro: 1
+Nombre: Lopez Wells Sebastian
+Ciudad: Tijuana
+ID: 1234
+
+
+Registro: 2
+Nombre: Lopez Vizcarra Juan
+Ciudad: Mexicali
+ID: 1235
+
+
+Registro: 3
+Nombre: Reynoso Gonzales Eduardo Miguel
+Ciudad: La Paz
+ID: 1236
+
+
