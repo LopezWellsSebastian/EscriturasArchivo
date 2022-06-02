@@ -16,6 +16,7 @@ namespace EscrituraArchivo
             public int ID;
             public long Tel;
 
+            //Constructor
             public Clientes(string Nom, string ciudad, int ID, long Tel)
             {
                 this.Nom = Nom;
@@ -24,6 +25,7 @@ namespace EscrituraArchivo
                 this.Tel = Tel;
             }
 
+            //Destructor
             ~Clientes()
             {
                 Console.WriteLine("Clase clientes destruida");
@@ -36,9 +38,7 @@ namespace EscrituraArchivo
             int ID, Registro;
             long Tel;
 
-            StreamWriter sw = new StreamWriter("NombresDeUsuario.txt", true); //Texto de registro de clientes
-            //si el archivo no existe lo creara
-            //si ya existe, escribira en el
+
 
             Console.Write("Dame un nombre con apellidos: ");
             Nom = Convert.ToString(Console.ReadLine());
@@ -59,20 +59,13 @@ namespace EscrituraArchivo
             Registro = int.Parse(sr.ReadLine());
             sr.Close();
 
-            //Es el texto que se escribira despues del texto que ya esta en el archivo
-            string[] Lines ={
-               "Registro: "+Registro,
-               "Nombre: "+C1.Nom
-               ,"Ciudad: "+C1.ciudad
-               ,"ID: "+C1.ID.ToString()
-               ,"\n"
-            };
-
+            StreamWriter sw = new StreamWriter("NombresDeUsuario.txt", true); //Texto de registro de clientes
             //Se escribe en el archivo
-            foreach (string Line in Lines)
-            {
-                sw.WriteLine(Line);
-            }
+            sw.WriteLine("Registro: " + Registro);
+            sw.WriteLine("Nombre: " + C1.Nom);
+            sw.WriteLine("Ciudad: " + C1.ciudad);
+            sw.WriteLine("ID: " + C1.ID.ToString());
+            sw.WriteLine("");
             sw.Close();//se debe cerrare el archivo
 
             //Aumentamos las cantidades de registro
@@ -80,9 +73,11 @@ namespace EscrituraArchivo
 
             //Abrimos un StreamWriter para sobrescribir el texto
             StreamWriter R = new StreamWriter("NumR.txt", false);
+
             //Sobreescribe en el archivo de textos para saber que cantidad de registros hay
             R.WriteLine(Registro);
             R.Close();
+
             Console.WriteLine("Escrbiendo en el archivo.....");
             Console.ReadLine();
         }

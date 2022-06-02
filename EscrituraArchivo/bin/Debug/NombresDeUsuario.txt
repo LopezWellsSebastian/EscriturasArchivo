@@ -17,3 +17,19 @@ Ciudad: La Paz
 ID: 1236
 
 
+Registro: 4
+Nombre: Lopez Wells Jose
+Ciudad: Mexicali
+ID: 1237
+
+
+Registro: 5
+Nombre: Lopez Guazcarra
+Ciudad: Mexicali
+ID: 1238
+
+Registro: 6
+Nombre: Juarez
+Ciudad: CDMX
+ID: 1239
+
