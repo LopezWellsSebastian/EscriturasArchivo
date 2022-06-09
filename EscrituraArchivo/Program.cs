@@ -80,6 +80,7 @@ namespace EscrituraArchivo
 
             Console.WriteLine("Escrbiendo en el archivo.....");
             Console.ReadLine();
+
         }
     }
 }
